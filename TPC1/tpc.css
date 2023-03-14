@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+
+}
+
+.header {
+    text-align: center;
+    background-color: #3D1308;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    background-color: #fff;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	font-size: 18px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header > .title {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.quote {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 78 rem;
+    margin: 0px auto;
+    align-items: center;
+    padding: 0px 0px 0px 1rem;
+    border-radius: 25px;
+}
+
+.quote blockquote {
+    text-align: center;
+    font-size: x-large;
+}
+
+.quote img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description {
+    margin: 2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+}
+
+.description > h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    line-height: 1.2;
+}
+.description > p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.description > hr {
+    margin-top: 2rem;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+section img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height:fit-content;
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.info1 {
+    width: 45%;
+    float: left;
+}
+
+.info2 {
+    width: 45%;
+    float: right;
+}
+
+.button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 25px;
+    border: 3px solid #3D1308;
+    text-align: center;
+
+}
